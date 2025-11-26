@@ -12,6 +12,8 @@ Simple personal finance scripts to collect and process finance data.
 ## Requirements
 
 - Python 3.8+ (recommended)
+- pandas
+- matplotlib
 
 ## Quick Start (PowerShell)
 
@@ -28,28 +30,6 @@ pip install -r requirements.txt  # only if requirements.txt exists
 # Run the main script
 python .\main.py
 ```
-
-## Data privacy
-
-`finance_data.csv` may contain sensitive personal or financial information. If you do not want this file in the repository:
-
-- Remove it from the latest commit and keep it locally:
-
-```powershell
-git rm --cached finance_data.csv
-; echo "finance_data.csv" >> .gitignore
-; git add .gitignore
-; git commit -m "Remove finance_data.csv from repo and add to .gitignore"
-; git push origin main
-```
-
-- If you need to remove `finance_data.csv` from the repository history entirely, let me know and I can run the appropriate history-rewrite steps (e.g., `git filter-repo` or BFG). This is destructive and will require a force-push and coordination with any collaborators.
-
-## Contributing
-
-1. Create a branch: `git checkout -b feature/your-feature`.
-2. Make changes and run tests (if present).
-3. Commit and push, then open a pull request.
 
 ## Author
 
