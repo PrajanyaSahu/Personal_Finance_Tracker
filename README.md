@@ -54,9 +54,3 @@ git rm --cached finance_data.csv
 ## Author
 
 PrajanyaSahu (repository owner)
-
----
-
-If you'd like, I can also:
-- add a `requirements.txt` if you tell me which packages are needed, or
-- remove `finance_data.csv` from history now.
