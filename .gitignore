@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pyo
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Optional: keep local data files out of git
+# finance_data.csv
